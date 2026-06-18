@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RUACH — Support &amp; FAQ</title>
+<style>
+  :root {
+    /* RUACH dark mode palette (from theme.js) */
+    --bg: #0F1215;
+    --surface: #181D22;
+    --surface-alt: #1F262D;
+    --ink: #EDE7DC;
+    --muted: #6B5E52;
+    --text-secondary: #B8A99A;
+    --slate: #5A8AAD;
+    --gold: #D4A85C;
+    --terra: #D4724E;
+    --border: #2A3540;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.6;
+  }
+  .header {
+    background: var(--surface);
+    color: var(--ink);
+    padding: 48px 24px 40px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  .logo-lockup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 8px;
+  }
+  .logo-lockup img {
+    height: 40px;
+    width: auto;
+    display: block;
+  }
+  .header h1 { font-size: 36px; font-weight: 800; letter-spacing: 1px; line-height: 1; }
+  .header .tagline { font-size: 13px; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); }
+  .container { max-width: 720px; margin: 0 auto; padding: 40px 24px 60px; }
+  h2 {
+    color: var(--gold);
+    font-size: 21px;
+    margin: 38px 0 14px;
+    border-bottom: 2px solid var(--gold);
+    padding-bottom: 6px;
+  }
+  h2:first-of-type { margin-top: 0; }
+  h2 .icon { margin-right: 8px; }
+  p { margin-bottom: 14px; color: var(--text-secondary); }
+  a { color: var(--terra); text-decoration: none; font-weight: 600; }
+  a:hover { text-decoration: underline; }
+  .contact-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+    margin: 20px 0 10px;
+    text-align: center;
+  }
+  .contact-card .email { font-size: 20px; font-weight: 700; color: var(--slate); display: block; margin: 10px 0; }
+  .faq-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 10px;
+  }
+  .faq-item .q { font-weight: 700; color: var(--ink); margin-bottom: 5px; font-size: 15px; }
+  .faq-item .a { color: var(--text-secondary); font-size: 14.5px; }
+  .toc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 22px;
+    margin-bottom: 10px;
+  }
+  .toc-title { font-weight: 700; color: var(--gold); margin-bottom: 10px; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; }
+  .toc ul { list-style: none; columns: 2; }
+  .toc li { margin-bottom: 6px; font-size: 14px; }
+  .footer {
+    text-align: center; color: var(--muted); font-size: 13px;
+    padding: 30px 24px; border-top: 1px solid var(--border);
+  }
+  @media (max-width: 520px) { .toc ul { columns: 1; } }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo-lockup">
+      <img src="logo.png" alt="RUACH logo">
+      <h1>RUACH</h1>
+    </div>
+    <div class="tagline">Spirit · Wind · Breath</div>
+  </div>
+
+  <div class="container">
+
+    <h2>Support</h2>
+    <p>Welcome to RUACH Bible &amp; Prayer support. Below you'll find answers to common questions, organized by feature. If you can't find what you need, email us anytime.</p>
+
+    <div class="contact-card">
+      <p>Email us directly:</p>
+      <a class="email" href="mailto:ruachbibleapp@gmail.com">ruachbibleapp@gmail.com</a>
+      <p style="font-size:13px;color:var(--muted);">We typically respond within 1–2 business days.</p>
+    </div>
+
+    <div class="toc">
+      <div class="toc-title">Jump to a topic</div>
+      <ul>
+        <li><a href="#account">Account &amp; Sign-In</a></li>
+        <li><a href="#billing">Subscriptions &amp; Billing</a></li>
+        <li><a href="#read">Read</a></li>
+        <li><a href="#search">Search</a></li>
+        <li><a href="#library">Library</a></li>
+        <li><a href="#study">Study</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#prayer">Prayer</a></li>
+        <li><a href="#discussions">Discussions</a></li>
+        <li><a href="#groups">Groups</a></li>
+        <li><a href="#churches">Churches &amp; Giving</a></li>
+        <li><a href="#ai">AI Features</a></li>
+        <li><a href="#privacy">Privacy &amp; Data</a></li>
+      </ul>
+    </div>
+
+    <h2 id="account"><span class="icon">👤</span>Account &amp; Sign-In</h2>
+    <div class="faq-item"><div class="q">How do I create an account?</div><div class="a">Open RUACH and sign up with your email, or use Sign in with Google or Sign in with Apple. A free account lets you save progress across devices.</div></div>
+    <div class="faq-item"><div class="q">How do I reset my password?</div><div class="a">On the sign-in screen, tap "Forgot Password" and follow the email instructions. If you signed in with Google or Apple, just use that same method to sign back in — there's no separate password.</div></div>
+    <div class="faq-item"><div class="q">Can I use RUACH without an account?</div><div class="a">You can read the Bible and explore freely as a guest. An account is required for prayer posts, community features, saving bookmarks across devices, and AI features.</div></div>
+    <div class="faq-item"><div class="q">How do I delete my account?</div><div class="a">Go to Profile → Settings and choose the account deletion option, or email us at ruachbibleapp@gmail.com and we'll permanently remove your account and associated data.</div></div>
+    <div class="faq-item"><div class="q">My progress didn't sync to my other device.</div><div class="a">Make sure you're signed in with the same account on both devices. Bookmarks, notes, streaks, and study progress sync automatically when signed in.</div></div>
+
+    <h2 id="billing"><span class="icon">💳</span>Subscriptions &amp; Billing</h2>
+    <div class="faq-item"><div class="q">What does Premium cost?</div><div class="a">RUACH Premium is $4.99/month or $29.99/year. The annual plan saves you about 50% compared to monthly.</div></div>
+    <div class="faq-item"><div class="q">How do I restore my subscription?</div><div class="a">Open the subscription screen in RUACH and tap "Restore Purchases." Be sure you're signed in with the same Apple ID you originally subscribed with.</div></div>
+    <div class="faq-item"><div class="q">How do I cancel my subscription?</div><div class="a">Subscriptions are managed by Apple. Go to iPhone Settings → tap your name → Subscriptions → RUACH → Cancel Subscription. You'll keep access until the end of the billing period.</div></div>
+    <div class="faq-item"><div class="q">Do subscriptions auto-renew?</div><div class="a">Yes. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period. You can cancel anytime in your Apple subscription settings.</div></div>
+    <div class="faq-item"><div class="q">I have a promo code — where do I enter it?</div><div class="a">On the subscription screen, tap "Have a promo code?" and enter it. Valid codes unlock Premium access instantly.</div></div>
+    <div class="faq-item"><div class="q">Can I get a refund?</div><div class="a">Refunds for App Store purchases are handled by Apple. Visit reportaproblem.apple.com and sign in with your Apple ID to request a refund.</div></div>
+
+    <h2 id="read"><span class="icon">📖</span>Read</h2>
+    <div class="faq-item"><div class="q">Which Bible translations are included?</div><div class="a">RUACH includes the King James Version (KJV) and the Bible in Basic English (BBE), both fully available offline.</div></div>
+    <div class="faq-item"><div class="q">Can I read offline?</div><div class="a">Yes. The full Bible text is stored on your device, so you can read without an internet connection. AI and community features require internet.</div></div>
+    <div class="faq-item"><div class="q">How do I bookmark a verse or add a note?</div><div class="a">Tap a verse to open options for bookmarking, highlighting, and adding a personal note. Your bookmarks and notes sync to your account.</div></div>
+    <div class="faq-item"><div class="q">What is the original Hebrew/Greek text feature?</div><div class="a">As you read certain passages, the original Hebrew (Old Testament) or Greek (New Testament) text is revealed, helping you connect with Scripture in its original language.</div></div>
+    <div class="faq-item"><div class="q">Can the app read the Bible aloud?</div><div class="a">Yes. RUACH includes an audio reading feature that reads verses aloud using your device's built-in voice.</div></div>
+    <div class="faq-item"><div class="q">Who wrote each book?</div><div class="a">Each book shows its traditional author with a short profile and portrait. Books with debated or unknown authorship are labeled accordingly.</div></div>
+
+    <h2 id="search"><span class="icon">🔍</span>Search</h2>
+    <div class="faq-item"><div class="q">How do I search the Bible?</div><div class="a">Open the Search tab and type any word, phrase, or reference. RUACH instantly searches all 31,000+ verses.</div></div>
+    <div class="faq-item"><div class="q">Can I search by verse reference?</div><div class="a">Yes. Enter something like "John 3:16" to jump directly to a passage, or search keywords to find every verse containing them.</div></div>
+
+    <h2 id="library"><span class="icon">📚</span>Library</h2>
+    <div class="faq-item"><div class="q">What's in the Library tab?</div><div class="a">The Library is your hub for saved content, Biblical Journey Maps, and additional study resources.</div></div>
+    <div class="faq-item"><div class="q">What are Biblical Journey Maps?</div><div class="a">Journey Maps let you follow 34 biblical figures — like Jesus, Paul, and Moses — across 248 historical locations, in the order events happened. See where they were born, traveled, and where their stories concluded.</div></div>
+    <div class="faq-item"><div class="q">Where are my bookmarked verses?</div><div class="a">Your saved verses and notes are accessible from the Library and your Profile, synced to your account.</div></div>
+
+    <h2 id="study"><span class="icon">✍️</span>Study</h2>
+    <div class="faq-item"><div class="q">What is the Bible Study plan?</div><div class="a">RUACH builds a personalized 12-month Bible study based on a short survey about your life, faith background, and goals. Each day includes a passage, context, reflection, and a journaling prompt.</div></div>
+    <div class="faq-item"><div class="q">Is the Study feature free?</div><div class="a">A preview is available to everyone. The full personalized 12-month study plan is part of RUACH Premium.</div></div>
+    <div class="faq-item"><div class="q">Can I change my study profile later?</div><div class="a">Yes. Tap "Adjust My Study Profile" anytime. You'll choose whether to keep all your existing progress (applying new preferences only to future months) or start fresh. Your completed days and notes are never lost unless you choose to start over.</div></div>
+    <div class="faq-item"><div class="q">How does the plan unlock?</div><div class="a">Your plan is delivered one month (30 days) at a time, so each new month stays fresh and tailored to you.</div></div>
+    <div class="faq-item"><div class="q">What is the SOAP journal?</div><div class="a">SOAP stands for Scripture, Observation, Application, Prayer — a structured journaling method built into each study day to help you reflect and apply what you read.</div></div>
+
+    <h2 id="profile"><span class="icon">⭐</span>Profile</h2>
+    <div class="faq-item"><div class="q">How do I set a profile or banner photo?</div><div class="a">Go to your Profile and tap your photo or banner to upload an image from your library.</div></div>
+    <div class="faq-item"><div class="q">What are reading streaks and awards?</div><div class="a">RUACH tracks your daily reading streak and awards milestones for reading, prayer, encouragement, community participation, and Scripture quizzes.</div></div>
+    <div class="faq-item"><div class="q">Can I change the app's appearance?</div><div class="a">Yes. In Profile → Settings you can choose accent themes (Slate Blue, Gold, Terracotta, Cream) and the app follows your device's light/dark mode.</div></div>
+    <div class="faq-item"><div class="q">How do I turn notifications on or off?</div><div class="a">In Profile → Settings you can toggle notifications for prayers, discussions, profile posts, and daily reminders individually.</div></div>
+    <div class="faq-item"><div class="q">How do I enable Offline Mode?</div><div class="a">In Profile → Settings, toggle Offline Mode to use RUACH without network features. The Bible remains fully readable offline.</div></div>
+
+    <h2 id="community"><span class="icon">🌎</span>Community</h2>
+    <div class="faq-item"><div class="q">What is the Community tab?</div><div class="a">Community is where you discover local churches, see Trending Verses the community is reading, and connect with other believers.</div></div>
+    <div class="faq-item"><div class="q">What are Trending Verses?</div><div class="a">Trending Verses shows which passages the RUACH community is reading and bookmarking most right now.</div></div>
+    <div class="faq-item"><div class="q">Why does it ask for my location?</div><div class="a">Location is only used — with your permission — to help you find churches near you. You can decline and still use the rest of the app.</div></div>
+
+    <h2 id="prayer"><span class="icon">🙏</span>Prayer</h2>
+    <div class="faq-item"><div class="q">How do I post a prayer request?</div><div class="a">Open the Prayer tab and share your request. You can post publicly under your name or anonymously for privacy.</div></div>
+    <div class="faq-item"><div class="q">What is the Verse of the Day?</div><div class="a">A new verse appears each day at the top of the Prayer tab. Tap it to jump straight to that passage in the Read tab.</div></div>
+    <div class="faq-item"><div class="q">What does it mean to "pray" for a request?</div><div class="a">Tapping to pray lets the poster know someone is lifting them up, and helps build an encouraging community around each request.</div></div>
+    <div class="faq-item"><div class="q">Can I delete a prayer I posted?</div><div class="a">Yes. Open your prayer request and choose delete. You're always in control of your own posts.</div></div>
+
+    <h2 id="discussions"><span class="icon">💬</span>Discussions</h2>
+    <div class="faq-item"><div class="q">What are Discussions?</div><div class="a">Discussions are community conversations about faith, Scripture, and life. You can post, comment, and upvote contributions.</div></div>
+    <div class="faq-item"><div class="q">How do I report inappropriate content?</div><div class="a">Tap the options menu on any post or comment and choose Report. Our team reviews reports and removes content that violates our guidelines.</div></div>
+    <div class="faq-item"><div class="q">How do I block someone?</div><div class="a">Open the user's profile or post options and choose Block. You won't see their content, and they won't see yours.</div></div>
+
+    <h2 id="groups"><span class="icon">👥</span>Prayer Groups</h2>
+    <div class="faq-item"><div class="q">How do I create a prayer group?</div><div class="a">In the Groups tab, create a new group. You'll get a unique invite code to share with people you want to include.</div></div>
+    <div class="faq-item"><div class="q">How do I join a group?</div><div class="a">Enter the invite code shared by the group's creator. Only people with the code can see and join your private group.</div></div>
+    <div class="faq-item"><div class="q">Who can see what's posted in a group?</div><div class="a">Only members of that group. Prayer groups are private spaces just for the people you invite.</div></div>
+
+    <h2 id="churches"><span class="icon">⛪</span>Churches &amp; Giving</h2>
+    <div class="faq-item"><div class="q">How do I find a church?</div><div class="a">In the Community tab, browse or search for churches. You can view their profile, events, and live services.</div></div>
+    <div class="faq-item"><div class="q">How does giving work?</div><div class="a">Church donations are processed securely through Stripe and go directly to the church as charitable giving. RUACH does not take a cut of donations.</div></div>
+    <div class="faq-item"><div class="q">How does my church get verified?</div><div class="a">Churches can create a profile in the app and submit their EIN for verification. Our team reviews submissions, typically within 48 hours, before donations are enabled.</div></div>
+    <div class="faq-item"><div class="q">Can I watch services live?</div><div class="a">Yes. Churches that offer live streams can be watched directly within their RUACH profile.</div></div>
+
+    <h2 id="ai"><span class="icon">🤖</span>AI Features</h2>
+    <div class="faq-item"><div class="q">What AI features does RUACH have?</div><div class="a">Three AI features powered by Claude: Historical Info (background on when and why a book was written), Modern Context (how a passage applies today), and Bible Chat (ask questions about what you're reading).</div></div>
+    <div class="faq-item"><div class="q">How many AI uses do I get?</div><div class="a">Free users get 5 AI uses to try the features. Premium members get generous daily access — up to 15 Bible Chat messages, 10 Historical Context, and 10 Modern Context lookups per day.</div></div>
+    <div class="faq-item"><div class="q">Do AI features work offline?</div><div class="a">No. AI features require an internet connection because they're powered by a secure cloud service.</div></div>
+    <div class="faq-item"><div class="q">Is the AI a replacement for pastoral guidance?</div><div class="a">No. AI insights are for reflection and study only. They are not official theological teaching — always verify with Scripture and trusted pastoral guidance.</div></div>
+
+    <h2 id="privacy"><span class="icon">🔒</span>Privacy &amp; Data</h2>
+    <div class="faq-item"><div class="q">How is my data protected?</div><div class="a">Your data is stored securely and never sold. Read our full <a href="https://jolylinc-cyber.github.io/ruach-privacy">Privacy Policy</a> for details on what we collect and how it's used.</div></div>
+    <div class="faq-item"><div class="q">Why does RUACH ask for contacts access?</div><div class="a">Only to help you find friends who are also on RUACH, and only with your permission. You can decline and still use the app fully.</div></div>
+    <div class="faq-item"><div class="q">Can I post anonymously?</div><div class="a">Yes. Prayer requests can be posted anonymously so you can share freely while protecting your privacy.</div></div>
+
+    <p style="margin-top:30px;">Still need help? Email us at <a href="mailto:ruachbibleapp@gmail.com">ruachbibleapp@gmail.com</a> and we'll be glad to assist.</p>
+
+  </div>
+
+  <div class="footer">
+    © 2026 Lincoln Joly. All rights reserved.<br>
+    RUACH — Spirit · Wind · Breath
+  </div>
+
+</body>
+</html>
